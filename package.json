@@ -1,0 +1,38 @@
+{
+  "name": "ai-prd-kit",
+  "version": "0.1.0",
+  "description": "A local-first PRD and agent prompt quality toolkit for AI product teams.",
+  "type": "commonjs",
+  "bin": {
+    "ai-prd-kit": "bin/ai-prd-kit.js"
+  },
+  "scripts": {
+    "test": "node test/lint.test.js",
+    "lint:example": "node bin/ai-prd-kit.js lint examples/example-prd.zh-CN.md",
+    "score:example": "node bin/ai-prd-kit.js score examples/example-prd.zh-CN.md"
+  },
+  "keywords": [
+    "prd",
+    "product-management",
+    "ai-product-manager",
+    "prompt-engineering",
+    "agent",
+    "llm",
+    "specification",
+    "checklist",
+    "product-requirements"
+  ],
+  "author": "jeffreyfinearts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffreyfinearts/shijie.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffreyfinearts/shijie/issues"
+  },
+  "homepage": "https://github.com/jeffreyfinearts/shijie#readme"
+}
