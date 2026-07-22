@@ -1,0 +1,4 @@
+interface:
+  display_name: "初中英语单词复习教练"
+  short_description: "用主动回忆和间隔复习巩固初中英语词汇"
+  default_prompt: "使用 $junior-english-review-coach 带我做一轮 10 分钟的初中英语词汇主动回忆练习。"
