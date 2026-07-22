@@ -1,0 +1,4 @@
+interface:
+  display_name: "初中历史多角色课堂讨论设计"
+  short_description: "为初中历史教师生成证据驱动、可实施的多角色课堂讨论方案"
+  default_prompt: "Use $design-junior-history-role-discussions to design a structured role-based discussion for a junior-high history lesson."
